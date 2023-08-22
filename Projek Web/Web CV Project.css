@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    color: #333;
+  }
+  
+  header {
+    background-color: rgb(180, 180, 186);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav a {
+    color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+/* Comment Form */
+#comments {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #comments h2 {
+    margin-bottom: 30px;
+  }
+  
+  #comments form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #comments form div {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #comments form label {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #comments form input,
+  #comments form textarea {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #comments form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Contact Info */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-bottom: 30px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #contact li {
+    margin: 0 20px;
+  }
+  
+  #contact a {
+    color: #007bff;
+    font-size: 12px;
+  }
+  
+  #contact i {
+    margin-right: 10px;
+  }
+  #contact img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  
