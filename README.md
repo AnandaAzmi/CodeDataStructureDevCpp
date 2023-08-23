@@ -1,8 +1,10 @@
 # CodeTugasDevCpp
---
+
 Berisi file kode tugas c++ selama kuliah
+==
 Semester 1
 - Algoritma
+
 Semester 2
 - Struktur data
 
